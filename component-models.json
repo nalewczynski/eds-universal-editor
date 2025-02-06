@@ -205,7 +205,7 @@
     ]
   },
   {
-    "id": "simpleMarquee",
+    "id": "marquee",
     "fields": [
       {
         "component": "text",

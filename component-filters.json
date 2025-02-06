@@ -17,7 +17,7 @@
       "columns",
       "fragment",
       "quote",
-      "simpleMarquee"
+      "marquee"
     ]
   },
   {
@@ -40,7 +40,7 @@
       "button",
       "title",
       "quote",
-      "simpleMarquee"
+      "marquee"
     ]
   }
 ]
