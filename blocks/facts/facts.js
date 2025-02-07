@@ -6,9 +6,7 @@ function getPropsForFactsFromBlock(block) {
   const factPropObject = {
     facts: [],
   };
-  factPropObject.facts = Array.from(block.children).map((child) => {
-    return child.children[0].innerText;
-  });
+  factPropObject.facts = Array.from(block.children).map((child) => child.children[0].innerText);
   return factPropObject;
 }
 
