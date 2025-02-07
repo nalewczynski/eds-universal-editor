@@ -3,6 +3,7 @@ import { createApp } from 'vue';
 import Facts from './Facts.vue';
 
 function getPropsForFactsFromBlock(block) {
+  console.log(block);
   const factPropObject = {
     facts: [],
   };
