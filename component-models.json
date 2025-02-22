@@ -189,26 +189,32 @@
     "id": "separator",
     "fields": [
       {
+        "component": "text",
+        "valueType": "string",
+        "name": "separatorText",
+        "value": "",
+        "label": "Separator text",
+        "description": "The text you want shown in your separator"
+      },
+      {
         "component": "select",
         "name": "classes",
         "value": "",
-        "label": "Margin size",
+        "label": "Background Color",
+        "description": "The separator background color",
+        "valueType": "string",
         "options": [
           {
-            "name": "default",
-            "value": ""
+            "name": "Red",
+            "value": "bg-red"
           },
           {
-            "name": "Small",
-            "value": "margin-small"
+            "name": "Green",
+            "value": "bg-green"
           },
           {
-            "name": "Medium",
-            "value": "margin-medium"
-          },
-          {
-            "name": "Big",
-            "value": "margin-big"
+            "name": "Blue",
+            "value": "bg-blue"
           }
         ]
       }
