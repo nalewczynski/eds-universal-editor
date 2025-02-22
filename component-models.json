@@ -191,7 +191,7 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "separatorText",
+        "name": "text",
         "value": "",
         "label": "Separator text",
         "description": "The text you want shown in your separator"
