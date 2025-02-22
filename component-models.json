@@ -190,7 +190,8 @@
     "fields": [
       {
         "component": "select",
-        "name": "marginSize",
+        "name": "classes",
+        "value": "",
         "label": "Margin size",
         "options": [
           {
@@ -199,15 +200,15 @@
           },
           {
             "name": "Small",
-            "value": "small"
+            "value": "margin-small"
           },
           {
             "name": "Medium",
-            "value": "medium"
+            "value": "margin-medium"
           },
           {
             "name": "Big",
-            "value": "big"
+            "value": "margin-big"
           }
         ]
       }

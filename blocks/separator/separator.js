@@ -1,4 +1,5 @@
 export default function decorate(block) {
+  const [separatorWrapper] = block.children;
   const separator = document.createElement('div');
-  block.append(separator);
+  separatorWrapper.replaceWith(separator)
 }
