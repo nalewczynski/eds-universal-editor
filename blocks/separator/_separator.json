@@ -20,6 +20,29 @@
     {
       "id": "separator",
       "fields": [
+        {
+          "component": "select",
+          "name": "marginSize",
+          "label": "Margin size",
+          "options": [
+            {
+              "name": "default",
+              "value": ""
+            },
+            {
+              "name": "Small",
+              "value": "small"
+            },
+            {
+              "name": "Medium",
+              "value": "medium"
+            },
+            {
+              "name": "Big",
+              "value": "big"
+            }
+          ]
+        }
       ]
     }
   ],
