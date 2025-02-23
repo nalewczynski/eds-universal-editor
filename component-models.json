@@ -186,41 +186,6 @@
     ]
   },
   {
-    "id": "separator",
-    "fields": [
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "text",
-        "value": "",
-        "label": "Separator text",
-        "description": "The text you want shown in your separator"
-      },
-      {
-        "component": "select",
-        "name": "classes",
-        "value": "",
-        "label": "Background Color",
-        "description": "The separator background color",
-        "valueType": "string",
-        "options": [
-          {
-            "name": "Red",
-            "value": "bg-red"
-          },
-          {
-            "name": "Green",
-            "value": "bg-green"
-          },
-          {
-            "name": "Blue",
-            "value": "bg-blue"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "quote",
     "fields": [
       {
