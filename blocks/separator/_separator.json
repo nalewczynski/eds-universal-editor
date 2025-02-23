@@ -24,14 +24,12 @@
           "component": "text",
           "valueType": "string",
           "name": "text",
-          "value": "",
-          "label": "Separator text",
+          "label": "Text",
           "description": "The text you want shown in your separator"
         },
         {
           "component": "select",
           "name": "classes",
-          "value": "",
           "label": "Background Color",
           "description": "The separator background color",
           "valueType": "string",
