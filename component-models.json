@@ -157,6 +157,32 @@
     ]
   },
   {
+    "id": "cards",
+    "fields": [
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Columns",
+        "description": "Number of columns",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "3",
+            "value": "col-3"
+          },
+          {
+            "name": "4",
+            "value": "col-4"
+          },
+          {
+            "name": "5",
+            "value": "col-5"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "columns",
     "fields": [
       {
