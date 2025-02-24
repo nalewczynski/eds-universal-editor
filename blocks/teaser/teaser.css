@@ -1,10 +1,4 @@
 /* stylelint-disable no-descending-specificity */
-.teaser {
-    display: grid;
-    grid-template-areas: "teaser";
-    align-items: end;
-    justify-items: center;
-}
 
 .teaser > div {
     grid-area: teaser;
