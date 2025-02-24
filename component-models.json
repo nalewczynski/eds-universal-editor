@@ -112,6 +112,32 @@
     ]
   },
   {
+    "id": "cards",
+    "fields": [
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Columns",
+        "description": "Number of columns",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "3",
+            "value": "col-3"
+          },
+          {
+            "name": "4",
+            "value": "col-4"
+          },
+          {
+            "name": "5",
+            "value": "col-5"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "card",
     "fields": [
       {
@@ -234,25 +260,6 @@
             "value": "bg-blue"
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "teaser",
-    "fields": [
-      {
-        "component": "reference",
-        "valueType": "string",
-        "name": "image",
-        "label": "Image",
-        "multi": false
-      },
-      {
-        "component": "richtext",
-        "name": "text",
-        "value": "",
-        "label": "Text",
-        "valueType": "string"
       }
     ]
   }
