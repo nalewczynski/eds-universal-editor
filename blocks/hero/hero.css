@@ -30,6 +30,30 @@
   height: 100%;
 }
 
+.hero h1, h2, h3, h4, p {
+  max-width: 1200px;
+  background: white;
+  margin: auto auto 10px;
+  padding: 10px;
+  color: black
+}
+
+.hero .button-container{
+  background: transparent;
+}
+
+.hero .button {
+  color: white;
+}
+
+.hero .button-container a {
+    border-radius: 0;
+    background-color: white;
+    color: black;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+
 @media (width >= 900px) {
   .hero {
     padding: 40px 32px;
