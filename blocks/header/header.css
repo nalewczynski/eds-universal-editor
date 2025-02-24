@@ -145,8 +145,16 @@ header .nav-brand {
 }
 
 header nav .nav-brand img {
-  width: 128px;
   height: auto;
+}
+
+header nav .icon {
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  margin-left: -25px;
+  margin-top: -3px;
 }
 
 /* sections */
