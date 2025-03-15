@@ -126,6 +126,7 @@ export default async function decorate(block) {
   });
 
   const navBrand = nav.querySelector('.nav-brand');
+  navBrand.classList.add('bg-sky-950');
   const brandLink = navBrand.querySelector('.button');
   if (brandLink) {
     brandLink.className = '';
