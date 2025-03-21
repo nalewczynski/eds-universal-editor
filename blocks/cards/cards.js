@@ -52,12 +52,12 @@ export default function decorate(block) {
     container.appendChild(counterDisplay);
     container.appendChild(plusButton);
 
-    block.appendChild(container);
+    return container
 
   };
 
-  createReactiveButton();
 
   block.textContent = '';
   block.append(ul);
+  block.append(createReactiveButton());
 }
