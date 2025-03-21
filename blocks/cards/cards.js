@@ -1,6 +1,6 @@
 import { createOptimizedPicture } from '../../scripts/aem.js';
 import { moveInstrumentation } from '../../scripts/scripts.js';
-import Utils from '../../scripts/utils';
+import Utils from '../../scripts/utils.js';
 
 export default function decorate(block) {
   console.log('block', block);
